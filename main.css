@@ -1,0 +1,124 @@
+
+/* Divs */
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 95vh;
+}
+
+/* To show apps*/
+.apps {
+  position: relative;
+  width: 50%;
+  height: 80%;
+  left: 25%;
+  top: 20%;
+}
+
+/* To jump to apps*/
+.appJump {
+  position: static;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: top;
+}
+
+/* Animation to arrow */
+
+.bounce-1 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+}
+
+@keyframes bounce-1 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+/* App buttons */
+
+.button {
+  border: 2px solid black;
+  background-color: Transparent;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 100px;
+  width: 200px;
+}
+
+.appButtons {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  top: 50%;
+  bottom: 10%;
+}
+
+.iosApps {
+
+}
+
+.androidApps {
+
+}
+
+#IOStable {
+  display: none;
+}
+
+#Androidtable {
+  display: none;
+}
+
+.appTables {
+  position: relative;
+  top: 75px;
+}
+
+.ios {
+  width: 250px;
+  height: 250px;
+}
+
+/* Elements */
+span {
+  margin-right: 10px;
+}
+
+/* Background */
+body {
+  background-image: url("images/muir.jpg");
+  /* Full height */
+  height: 100%;
+  overflow: auto;
+  margin:0px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+img {
+  border-radius: 25%;
+}
