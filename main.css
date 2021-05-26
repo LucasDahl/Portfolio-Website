@@ -67,30 +67,29 @@
   bottom: 10%;
 }
 
-.iosApps {
-
-}
-
-.androidApps {
-
-}
 
 #IOStable {
   display: none;
+  
 }
 
 #Androidtable {
   display: none;
 }
 
-.appTables {
-  position: relative;
-  top: 75px;
+.ios {
+  padding: 20px;
 }
 
-.ios {
-  width: 250px;
-  height: 250px;
+.row {
+  display: flex; /* equal height of the children */
+}
+
+.col {
+  flex: 1; /* additionally, equal width */
+  padding-top: 10%;
+  padding: 1em;
+
 }
 
 /* Elements */
@@ -122,3 +121,5 @@ html {
 img {
   border-radius: 25%;
 }
+
+
