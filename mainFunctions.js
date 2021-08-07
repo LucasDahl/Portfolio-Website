@@ -1,8 +1,11 @@
 // Properties
 var hideIOS = true;
 var hideAndroid = true;
+var hideUnity = true;
 
 // Methods
+
+// Swift
 function toggleIOSTable() {
   if (hideIOS == false) {
     hideIOS = true;
@@ -14,6 +17,7 @@ function toggleIOSTable() {
   }
 }
 
+// Java
 function toggleAndroidTable() {
   if (hideAndroid == false) {
     hideAndroid = true;
@@ -26,6 +30,14 @@ function toggleAndroidTable() {
 }
 
 
-function inDev() {
-  alert("Android apps are currently in development. These apps will be completed soon, please check back soon and check out my IOS apps.");
+// Unity
+function toggleUnityTable() {
+  if (hideUnity == false) {
+    hideUnity = true;
+    document.getElementById('UnityTable').style.display = 'none';
+  }
+  else {
+    hideUnity = false;
+    document.getElementById('UnityTable').style.display = 'block';
+  }
 }

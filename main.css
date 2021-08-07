@@ -77,6 +77,10 @@
   display: none;
 }
 
+#UnityTable {
+  display: none;
+}
+
 .ios {
   padding: 20px;
 }
