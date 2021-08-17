@@ -75,7 +75,7 @@
   margin-right: auto;
   border-spacing: 30px 10px;
   display: none;
-  overflow-x: auto; /* Horizontal */
+  overflow-x: auto;
 }
 
 
@@ -86,7 +86,7 @@
   margin-right: auto;
   border-spacing: 30px 10px;
   display: none;
-  overflow-x: auto; /* Horizontal */
+  overflow-x: auto;
 }
 
 
@@ -97,7 +97,7 @@
   margin-right: auto;
   border-spacing: 30px 10px;
   display: none;
-  overflow-x: auto; /* Horizontal */
+  overflow-x: auto;
 }
 
 
