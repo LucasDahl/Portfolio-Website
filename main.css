@@ -69,22 +69,35 @@
 
 
 #IOStable {
-  margin: auto;
-  border-spacing: 25px;
+  table-layout: fixed;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 30px 10px;
   display: none;
+  overflow-x: auto; /* Horizontal */
 }
 
+
 #Androidtable {
-    margin: auto;
-    border-spacing: 25px;
-    display: none;
+  table-layout: fixed;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 30px 10px;
+  display: none;
+  overflow-x: auto; /* Horizontal */
 }
 
 
 #UnityTable {
-  margin: auto;
-  border-spacing: 25px;
+  table-layout: fixed;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 30px 10px;
   display: none;
+  overflow-x: auto; /* Horizontal */
 }
 
 
@@ -110,6 +123,8 @@ body {
 
 }
 
+
+
 html {
     overflow: hidden;
     height: 100%;
@@ -121,8 +136,8 @@ img {
 
 
 @media 
-only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px)  {
+only screen and (max-width: 726px),
+(min-device-width: 726px) and (max-device-width: 1024px)  {
 
 	/* Force table to not be like tables anymore */
 	table, thead, tbody, th, td, tr { 
@@ -141,7 +156,9 @@ only screen and (max-width: 760px),
 		/* Behave  like a "row" */
 		border: none;
 		position: relative;
-		padding-left: 25%; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 	}
 	
 	td:before { 
@@ -156,3 +173,4 @@ only screen and (max-width: 760px),
 	}
 	
 }
+

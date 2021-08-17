@@ -41,14 +41,3 @@ function toggleUnityTable() {
     document.getElementById('UnityTable').style.display = 'block';
   }
 }
-
-// Open multiple tabs
-function openWinRumbleCars() {
-  window.open("https://apps.apple.com/us/app/rumble-cars/id1580102820", "_blank")
-  window.open("https://play.google.com/store/apps/details?id=com.LucasDahlRumbleCars")  
-}
-
-function openWinPlanetaryPursuit() {
-  window.open("https://apps.apple.com/us/app/planetary-pursuit/id1580996906", "_blank")
-   
-}
