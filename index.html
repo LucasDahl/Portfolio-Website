@@ -59,7 +59,23 @@
         <button class = "button androidApps" onclick = "toggleAndroidTable()">Java</button>
       </div>
 
+     
+
       <!-- Tables ================================================================== -->
+
+
+
+       <!-- Unity button divs-->
+       <div id = "RumbleCars" >
+        <button class = "unityButton" onclick = "window.open('https://apps.apple.com/us/app/rumble-cars/id1580102820');">Rumble Cars <br> iOS </button>
+        <button class = "unityButton" onclick = "window.open('https://play.google.com/store/apps/details?id=com.LucasDahlRumbleCars');">Rumble Cars <br> Android</button>
+       </div>
+
+       <div id = "Planetary" >
+        <button class = "unityButton" onclick = "window.open('https://apps.apple.com/us/app/planetary-pursuit/id1580996906');">Planetary Pursuit <br> iOS</button>
+        <button class = "unityButton" onclick = "window.open('https://play.google.com/store/apps/details?id=com.DefaultCompany.PlanetaryPursuit');">Planetary Pursuit <br>Android</button>
+       </div>
+
 
           <!-- iOS apps-->
           <table id="IOStable" >
@@ -73,46 +89,43 @@
             <tbody>
                   <tr>
                       <td><a href="https://apps.apple.com/us/app/baby-sleepytime/id1480001818" target = "_blank">
-                        <img border="0" alt="Baby Sleepytime" src="images/babysleep.png" width="150" height="150">
+                        <img alt="Baby Sleepytime" src="images/babysleep.png" width="150" height="150">
                       </td>
   
                       <td><a href="https://apps.apple.com/us/app/imeme-generator/id1560021364" target = "_blank">
-                        <img border="0" alt="iMeme Generator" src="images/iMemeLogo.png" width="150" height="150">
+                        <img alt="iMeme Generator" src="images/iMemeLogo.png" width="150" height="150">
                       </td>
   
                       <td><a href="https://apps.apple.com/us/app/imeme-generator-lite/id1560232952" target = "_blank">
-                        <img border="0" alt="iMeme Generator Lite" src="images/iMemeLogoLite.png" width="150" height="150">
+                        <img alt="iMeme Generator Lite" src="images/iMemeLogoLite.png" width="150" height="150">
                       </td>
   
                       <td><a href="https://apps.apple.com/us/app/burning-inspiration/id1556522398" target = "_blank">
-                        <img border="0" alt="Burning Inspiration" src="images/burnAppIcon.png" width="150" height="150">
+                        <img alt="Burning Inspiration" src="images/burnAppIcon.png" width="150" height="150">
                       </td>
 
                       <td><a href="https://apps.apple.com/us/app/decisions-randomized/id1555330106" target = "_blank">
-                        <img border="0" alt="Decisions Randomized" src="images/random.png" width="150" height="150">
+                        <img alt="Decisions Randomized" src="images/random.png" width="150" height="150">
                       </td>
   
                       <td><a href="https://apps.apple.com/us/app/ifoxify/id1576016692" target = "_blank">
-                        <img border="0" alt="iFoxify" src="images/iFoxify.png" width="150" height="150">
+                        <img alt="iFoxify" src="images/iFoxify.png" width="150" height="150">
                       </td>
     
                       <td><a href="https://apps.apple.com/us/app/jokes-on-you/id1576255379" target = "_blank">
-                        <img border="0" alt="Jokes on You!" src="images/laughingLogo.png" width="150" height="150">
+                        <img alt="Jokes on You!" src="images/laughingLogo.png" width="150" height="150">
                       </td>
     
                       <td><a href="https://apps.apple.com/us/app/bored-radnom-activities/id1576791074" target = "_blank">
-                        <img border="0" alt="Bored - Random Activities " src="images/BoredLogo.png" width="150" height="150">
+                        <img alt="Bored - Random Activities " src="images/BoredLogo.png" width="150" height="150">
                       </td>
 
                   </tr>
 
                   <tr>
                     <td></td>
-
-                    <td></td>
-  
-                    <td></td>
-  
+                    <td></td>  
+                    <td></td>  
                     <td></td>
                     
                   </tr>  
@@ -135,11 +148,11 @@
               </thead>
               <tbody>
                     <tr>
-                        <td><a href="#" onclick="window.open('https://apps.apple.com/us/app/rumble-cars/id1580102820'); window.open('https://play.google.com/store/apps/details?id=com.LucasDahlRumbleCars');">
-                        <img border="0" alt="Rumble Cars" src="images/RumbleCarsLogo.png" width="150" height="150">
+                        <td>
+                          <input onclick="rumbleCars()" type = "image" src = "images/RumbleCarsLogo.png" width="150" height="150">
                         </td>
-                        <td><a href="#" onclick="window.open('https://apps.apple.com/us/app/planetary-pursuit/id1580996906'); window.open('https://play.google.com/store/apps/details?id=com.DefaultCompany.PlanetaryPursuit')">
-                          <img border="0" alt="Planetary Pursuit" src="images/PlanetaryPursuitLogo.png" width="150" height="150">
+                        <td>
+                          <input onclick="planetary()" type = "image" src = "images/PlanetaryPursuitLogo.png" width="150" height="150">
                         </td>
                         <td></td>
                     </tr>
@@ -156,6 +169,10 @@
               </tbody>
             </table>
 
+     
+            
+            
+
           <!-- Android apps-->
           <table id="Androidtable" >
             <thead>
@@ -168,7 +185,7 @@
             <tbody>
                   <tr>
                       <td><a href="https://play.google.com/store/apps/details?id=com.LucasDahl.ifoxify" target = "_blank">
-                        <img border="0" alt="iFoxify" src="images/iFoxify.png" width="150" height="150">
+                        <img alt="iFoxify" src="images/iFoxify.png" width="150" height="150">
                       </td>
                       <td></td>
                       <td></td>

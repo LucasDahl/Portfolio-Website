@@ -59,6 +59,21 @@
   width: 200px;
 }
 
+.unityButton {
+  border: 2px solid black;
+  background-color: Transparent;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 100px;
+  width: 350;
+}
+
 .appButtons {
   align-items: center;
   justify-content: center;
@@ -66,7 +81,6 @@
   top: 50%;
   bottom: 10%;
 }
-
 
 #IOStable {
   table-layout: fixed;
@@ -101,6 +115,27 @@
 }
 
 
+/* Unity button tables */
+#RumbleCars {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  top: 50%;
+  bottom: 10%;
+}
+
+#Planetary {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  top: 50%;
+  bottom: 10%;
+
+}
+
+
 
 /* Elements */
 span {
@@ -122,8 +157,9 @@ body {
   background-attachment: fixed;
 
 }
-
-
+#UnityButtons{
+ background-color: black;
+}
 
 html {
     overflow: hidden;
@@ -131,6 +167,10 @@ html {
 }
 
 img {
+  border-radius: 25%;
+}
+
+input {
   border-radius: 25%;
 }
 

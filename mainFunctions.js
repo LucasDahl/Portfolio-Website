@@ -2,7 +2,9 @@
 var hideIOS = true;
 var hideAndroid = true;
 var hideUnity = true;
-var urlList = ["https://apps.apple.com/us/app/rumble-cars/id1580102820","https://play.google.com/store/apps/details?id=com.LucasDahlRumbleCars"]
+var hideRumble = true;
+var hidePlanetary = true;
+
 // Methods
 
 // Swift
@@ -34,10 +36,44 @@ function toggleAndroidTable() {
 function toggleUnityTable() {
   if (hideUnity == false) {
     hideUnity = true;
+
+    // Hide the buttons
+    hideUnityButtons();
+    
     document.getElementById('UnityTable').style.display = 'none';
   }
   else {
     hideUnity = false;
     document.getElementById('UnityTable').style.display = 'block';
   }
+}
+
+function rumbleCars() {
+  if (hideRumble == false) {
+    hideRumble = true;
+    document.getElementById('RumbleCars').style.display = 'none';
+  }
+  else {
+    hideRumble = false;
+    document.getElementById('RumbleCars').style.display = 'block';
+  }
+}
+
+function planetary() {
+  if (hidePlanetary == false) {
+    hidePlanetary = true;
+    document.getElementById('Planetary').style.display = 'none';
+  }
+  else {
+    hidePlanetary = false;
+    document.getElementById('Planetary').style.display = 'block';
+  }
+}
+
+function hideUnityButtons() {
+    hidePlanetary = false;
+    hideRumble = false;
+    planetary();
+    rumbleCars();
+
 }
