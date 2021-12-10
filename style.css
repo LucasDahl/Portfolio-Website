@@ -14,9 +14,30 @@
   --activity:#00C7FF;
 }
 
-.row {
-    display: flex;
+h1 {
+  text-align: center;
 }
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+.projectsTabel {
+  overflow-x:auto;
+}
+
+table {
+  margin: auto;
+}
+
+td{
+padding-left: 50px;
+padding-right: 50px;
+}
+
+
+
 
 * {
   margin: 0;
