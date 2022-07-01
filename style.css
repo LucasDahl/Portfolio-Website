@@ -37,8 +37,6 @@ padding-right: 50px;
 }
 
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -494,8 +492,21 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-height: 95vh;
+  padding-bottom: 50vh;
+  
 }
+
+.name {
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 40vh;
+  padding-bottom: 1vh;
+ /* min-height: 95vh;*/
+}
+
 
 /* To show apps*/
 .apps {
