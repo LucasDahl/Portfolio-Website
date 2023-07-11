@@ -12,6 +12,7 @@
   --random:#FF453A;
   --jokes:#FFFB00;
   --activity:#00C7FF;
+  --neon:#7300ff;
 }
 
 h1 {
@@ -216,6 +217,17 @@ body {
   justify-content: center; 
 }
 
+.card__face--front--NeonSlopes{
+  background-image: url("images/NeonSlopes.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #7b00ff;;
+  display:flex;
+  align-items: center;
+  justify-content: center; 
+}
+
 
 
 .card__face--front h2 {
@@ -293,6 +305,11 @@ body {
 .card__header_Cubic {
     position: relative;
     padding: 30px 30px 40px;
+}
+
+.card__header_Neon {
+  position: relative;
+  padding: 30px 30px 40px;
 }
 
 .card__header_iMeme:after {
@@ -434,6 +451,22 @@ body {
   z-index: -1;
   border-radius: 0px 0px 50% 0px;
 }
+
+.card__header_Neon:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /*background-image: url("images/PlanetaryPursuitLogo.png");*/
+  background-color: var(--neon); 
+  /* background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%); */
+  z-index: -1;
+  border-radius: 0px 0px 50% 0px;
+}
+
 .planet{
   color: rgb(255, 255, 255);
 }
